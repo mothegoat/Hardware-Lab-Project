@@ -1,9 +1,9 @@
 # Hardware Lab Project
 ## Introdction
-|Creators|Mohammad Abolnejadian, Amirreza Mirzaei, Mohammadali Khodabandelou|
-|:-----:|:-----:|
-|Term|Spring 2023|
-|TA|Aboulfazl Younesi|
+| Creators | Mohammad Abolnejadian, Amirreza Mirzaei, Mohammadali Khodabandelou |
+| :------: | :----------------------------------------------------------------: |
+| Semester |                            Spring 2023                             |
+|    TA    |                         Aboulfazl Younesi                          |
 
 This project is built for the hardware lab class. The project involves building a car using Raspberry Pi and controlling its movement using hand gestures. The hand gestures are recorded using a phone's camera and detected using the YOLOv8 model.
 
@@ -48,3 +48,10 @@ Follow these steps to set up the Hand Gesture Controlled Car:
 - Connect the Hardware: Connect the motor driver to the Raspberry Pi using jumper wires. Make sure to connect the motor driver's control pins to the appropriate GPIO pins of the Raspberry Pi. Refer to the motor driver and Raspberry Pi documentation for the pin mappings.
 - Install Dependencies: Install Python 3, OpenCV, and MQTT libraries on the Raspberry Pi. You can use the package manager pip to install these dependencies.
 - Clone the Repository: Clone the project repository from GitHub onto the Raspberry Pi.
+
+## Hardware and Packaging
+You can see a full video of the final result in the `hardware results` folder. Following is a image of the packaging we came up with.
+
+![alt text](<hardware results/packaging.jpeg>)
+
+As you can see, as this project required a mobile device, and for sure DC motors and the Raspberry Pi needed a reliable power source, we provided three powerbanks, one for the Reaspberry Pi, and one for each of the Motor Drivers. Due to lack of equipments, we made the chasis out of a lunch box. This dicision was due to its plastic material, hard enough to stand the weight of Raspberry Pi, and light enough not to stop the vehicle from moving.
